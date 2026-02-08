@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury 3 Bedroom Apartment",
+    "price": 2500000,
+    "location": "Emerald Estate, Lekki Phase 3, Lagos",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0"
+    ],
+    "description": "This luxury 3 bedroom apartment is located in the peaceful and secure Emerald Estate in Lekki Phase 3. The property offers a modern architectural design with spacious living areas, large windows for natural lighting, and high quality finishing throughout the apartment. The kitchen is fully fitted with modern cabinets, a heat extractor, and ample storage space. The bedrooms are spacious and include wardrobes and en-suite bathrooms for comfort and privacy. The estate provides 24 hour security, constant water supply, and reliable electricity backup. It is close to shopping malls, schools, hospitals, and restaurants. This apartment is ideal for families and working professionals seeking comfort, convenience, and a premium lifestyle in Lagos."
+  },
+  {
+    "id": 2,
+    "name": "Modern 2 Bedroom Flat",
+    "price": 1400000,
+    "location": "Golden Palm Estate, Ajah Extension, Lagos",
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b",
+      "https://images.unsplash.com/photo-1616137466211-f939a420be84",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+    ],
+    "description": "This modern 2 bedroom flat is located in Golden Palm Estate, Ajah Extension, offering a comfortable and affordable living environment. The apartment features a spacious living room with tiled floors and large windows that allow for natural ventilation. The kitchen is designed with modern shelves and space for appliances. Both bedrooms are well sized and come with wardrobes. The environment is calm and family friendly, with good road access and proximity to supermarkets, schools, and transportation routes. Security is available within the estate, ensuring residents feel safe. This property is perfect for small families, couples, or young professionals who want a comfortable home in a developing and accessible area of Lagos."
+  },
+  {
+    "id": 3,
+    "name": "Executive 4 Bedroom Duplex",
+    "price": 4200000,
+    "location": "Royal Gardens Estate, Apo Hills, Abuja",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+      "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87",
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45",
+      "https://images.unsplash.com/photo-1613545325278-f24b0cae1224"
+    ],
+    "description": "This executive 4 bedroom duplex in Royal Gardens Estate, Apo Hills, Abuja offers luxury, privacy, and elegance. The property features a large compound with parking space, modern architectural finishing, and spacious interiors. Each bedroom has an en-suite bathroom and wardrobe. The living room is large and perfect for family gatherings or entertaining guests. The kitchen is fully equipped with modern cabinets and storage areas. The estate provides excellent security, clean water supply, and peaceful surroundings. It is located close to major roads, business districts, schools, and hospitals. This duplex is ideal for families who desire a prestigious home with comfort, security, and easy access to essential services in Abuja."
+  },
+  {
+    "id": 4,
+    "name": "Cozy 1 Bedroom Apartment",
+    "price": 750000,
+    "location": "Sunrise Court, Kubwa District, Abuja",
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200",
+      "https://images.unsplash.com/photo-1615529162924-f8605388461d"
+    ],
+    "description": "This cozy 1 bedroom apartment in Sunrise Court, Kubwa District, Abuja provides a comfortable and affordable living space for singles or young professionals. The apartment features a well designed living area, a functional kitchen, and a comfortable bedroom with wardrobe space. The environment is peaceful and suitable for residents who value quiet and safety. The building has access to clean water, electricity, and good drainage. Transportation is easily accessible, and the location is close to markets, shops, and essential services. This apartment is ideal for individuals seeking independence and comfort without spending too much on rent while still enjoying a quality living environment."
+  },
+  {
+    "id": 5,
+    "name": "Spacious 5 Bedroom Villa",
+    "price": 6500000,
+    "location": "Diamond Crest Estate, Banana Island Extension, Lagos",
+    "images": [
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227",
+      "https://images.unsplash.com/photo-1600210491369-e753d80a41f3",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115"
+    ],
+    "description": "This spacious 5 bedroom villa in Diamond Crest Estate offers a premium lifestyle for residents seeking luxury and exclusivity. The villa features modern finishing, a large living room, private balconies, and a beautiful compound. Each bedroom is en-suite and designed for maximum comfort. The kitchen is fully fitted with modern appliances and storage space. The estate provides excellent security, constant electricity backup, and well maintained infrastructure. The environment is serene and ideal for families or executives. The property is located near major business districts, restaurants, and entertainment centers. This villa offers everything needed for comfortable, secure, and luxurious living in Lagos."
+  },
+  {
+    "id": 6,
+    "name": "Affordable 2 Bedroom Bungalow",
+    "price": 900000,
+    "location": "Harmony Estate, Enugu West Layout, Enugu",
+    "images": [
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45",
+      "https://images.unsplash.com/photo-1616137466211-f939a420be84",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b"
+    ],
+    "description": "This affordable 2 bedroom bungalow is located in Harmony Estate, Enugu West Layout, providing a peaceful and friendly environment. The house includes a comfortable living room, well sized bedrooms, and a functional kitchen. The property has good ventilation and natural lighting. The compound offers parking space and room for outdoor activities. The neighborhood is calm, safe, and close to markets, schools, and transportation routes. Water supply and electricity are available. This bungalow is perfect for families or individuals looking for a comfortable home in a quiet and affordable area in Enugu."
+  },
+  {
+    "id": 7,
+    "name": "Serviced 3 Bedroom Terrace House",
+    "price": 2800000,
+    "location": "Silverline Estate, Port Harcourt GRA Phase 3, Rivers",
+    "images": [
+      "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+      "https://images.unsplash.com/photo-1600585152915-d208bec867a1",
+      "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87"
+    ],
+    "description": "This serviced 3 bedroom terrace house in Silverline Estate offers modern living with excellent amenities. The house features spacious rooms, modern finishing, and a well designed kitchen. Each bedroom includes wardrobes and bathrooms. The estate provides security, power backup, and maintenance services. The environment is peaceful and suitable for families and professionals. It is located close to business centers, schools, and shopping areas. This property provides comfort, convenience, and a secure living environment for residents seeking quality housing in Port Harcourt."
+  },
+  {
+    "id": 8,
+    "name": "Luxury Studio Apartment",
+    "price": 600000,
+    "location": "Crystal Heights, Ibadan City Center, Oyo",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200",
+      "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "description": "This luxury studio apartment in Crystal Heights, Ibadan City Center is designed for individuals seeking modern and affordable living. The apartment features a stylish interior, modern kitchen area, and comfortable living space. The building provides security, water supply, and electricity backup. The location offers easy access to transportation, restaurants, and shopping areas. The environment is peaceful and suitable for students, professionals, and individuals. This studio apartment provides comfort, convenience, and a modern lifestyle in the heart of Ibadan."
+  },
+  {
+    "id": 9,
+    "name": "Premium 4 Bedroom Penthouse",
+    "price": 7200000,
+    "location": "Skyview Towers, Victoria Island Extension, Lagos",
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+      "https://images.unsplash.com/photo-1600210491369-e753d80a41f3",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115"
+    ],
+    "description": "This premium 4 bedroom penthouse in Skyview Towers offers breathtaking views and luxury living. The penthouse includes spacious living areas, modern finishing, private balconies, and a fully fitted kitchen. Each bedroom has its own bathroom and wardrobe. The building offers elevator access, security, power backup, and parking space. The location is close to business districts, shopping malls, and restaurants. This penthouse is ideal for executives and families seeking exclusivity, comfort, and a premium lifestyle in Lagos."
+  }
+]
