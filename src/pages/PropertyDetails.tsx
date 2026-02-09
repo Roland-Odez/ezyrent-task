@@ -7,15 +7,6 @@ import { FaHeart, FaLocationDot } from "react-icons/fa6";
 import data from '../utils/data.json'
 import { useParams } from "react-router";
 
-interface DataType {
-  id: number,
-  name: string,
-  price: number,
-  location: string,
-  images: string[],
-  description: string
-}
-
 function PropertyDetails() {
 
   const params = useParams()
@@ -31,11 +22,9 @@ function PropertyDetails() {
       <Navbar />
       <Header />
 
-      {/* Main Layout */}
       <div className="flex justify-center mt-5">
         <div className="w-full max-w-5xl flex-col-reverse lg:flex-row flex gap-5">
           
-          {/* Left Column */}
           <div className="flex-1">
             
             <div className="flex-1 m-2.5">
@@ -58,14 +47,11 @@ function PropertyDetails() {
             </div>
           </div>
 
-          {/* Right Column */}
           <div className="flex-2 px-4 lg:px-0">
             <div className="w-full flex flex-col justify-center">
 
-              {/* Hotel Header */}
               <div className="flex justify-between mb-2.5 flex-col lg:flex-row">
 
-                {/* Left */}
                 <div className="flex flex-col gap-1 mx-1">
 
                   <h1 className="text-2xl flex items-start gap-1 mb-2">
@@ -91,7 +77,6 @@ function PropertyDetails() {
 
                 </div>
 
-                {/* Right */}
                 <div className="flex flex-col items-start lg:items-end">
 
                   <div className="flex mb-4 items-center mt-2 lg:mt-0">
@@ -129,7 +114,6 @@ function PropertyDetails() {
 
               </div>
 
-              {/* Image Grid */}
               <div className="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-2.5">
 
                 {images.map((photo, idx) => (
@@ -159,13 +143,11 @@ function PropertyDetails() {
         </div>
       </div>
 
-      {/* Details Section */}
-      <div className="w-full max-w-[1024px] mx-auto my-3">
+      <div className="w-full max-w-5xl mx-auto my-3">
 
-        {/* Bottom */}
         <div className="flex">
 
-          <div className="flex-[2] m-2.5 text-[14px]">
+          <div className="flex-2 m-2.5 text-[14px]">
             {description}
           </div>
 

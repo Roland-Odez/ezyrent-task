@@ -1,19 +1,9 @@
 import { Link } from "react-router";
 
-type PropertyItemProps = {
-  id: number;
-  name: string;
-  price: number;
-  location: string;
-  image: string;
-  description: string;
-}
-
 const PropertyItem = ({id, image, description, location, name, price}:PropertyItemProps) => {
   return (
     <Link className="border flex-col lg:flex-row border-gray-300 p-2.5 rounded flex justify-between gap-5 mb-5" to={'/property/'+id}>
 
-      {/* Image */}
       <img
         src={image}
         alt={name}
@@ -22,7 +12,6 @@ const PropertyItem = ({id, image, description, location, name, price}:PropertyIt
 
       <div className="flex flex-col lg:flex-row">
 
-      {/* Description */}
       <div className="flex flex-col gap-2.5 flex-2">
 
         <h1 className="text-sm lg:text-[20px] text-property-light-blue font-semibold">
@@ -55,10 +44,8 @@ const PropertyItem = ({id, image, description, location, name, price}:PropertyIt
 
       </div>
 
-      {/* Details */}
       <div className="flex flex-col justify-between flex-1">
 
-        {/* Rating */}
         <div className="flex justify-between items-center">
 
           <span className="font-medium capitalize">
@@ -71,7 +58,6 @@ const PropertyItem = ({id, image, description, location, name, price}:PropertyIt
 
         </div>
 
-        {/* Price and Button */}
         <div className="flex flex-col gap-1 text-right">
 
           <span className="text-xl font-semibold">
