@@ -1,73 +1,125 @@
-# React + TypeScript + Vite
+# 🏠 Property Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that displays a list of properties. Users can
+search, filter, sort, and view property details. This project was built
+using React + Vite and demonstrates clean component structure and user
+interaction.
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+-   📋 View list of available properties
+-   🔍 Search properties by:
+    -   Property name
+    -   Property location
+-   ↕️ Sort properties by price:
+    -   Ascending (Low → High)
+    -   Descending (High → Low)
+-   👁️ View detailed information about a property
+-   📭 Empty state when no properties match search
+-   🧩 Clean and modular component structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+------------------------------------------------------------------------
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   React
+-   Vite
+-   JavaScript / TypeScript
+-   CSS / Tailwind CSS
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+------------------------------------------------------------------------
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📦 Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository:
+
+``` bash
+git clone https://github.com/Roland-Odez/ezyrent-task.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate into the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+``` bash
+cd ezyrent-task
 ```
+
+Install dependencies:
+
+``` bash
+npm install
+```
+
+------------------------------------------------------------------------
+
+## ▶️ Running the App
+
+Start the development server:
+
+``` bash
+npm run dev
+```
+
+Open your browser and visit:
+
+    http://localhost:5173
+
+------------------------------------------------------------------------
+
+## 📖 How to Use the App
+
+### 1. View Properties
+
+When the app loads, you will see a list of available properties showing:
+
+-   Property name
+-   Location
+-   Price
+-   Others
+
+------------------------------------------------------------------------
+
+### 2. Search Properties
+
+Use the search input to find properties by:
+
+-   Property name (Example: Apartment)
+-   Location (Example: Lagos)
+
+The property list updates automatically.
+
+------------------------------------------------------------------------
+
+### 3. Sort Properties by Price
+
+You can sort properties by price:
+
+-   Ascending → Lowest price first
+-   Descending → Highest price first
+
+------------------------------------------------------------------------
+
+### 4. View Property Details
+
+Click on any property to view detailed information.
+
+------------------------------------------------------------------------
+
+## 🗝️ Key Decisions I Made
+
+Some of the key decisions i made:
+
+-   I choose the declarative mode for routing, for easy configuaration and other features
+-   I placd my Types in a single file for easy reference
+-   I made sure pages are in page folder, like wise components
+-   I added an option of ascending and descending order of sorting by price
+-   I made searching by text to be from both location and title of properties and avoided duplication
+
+## 👨‍💻 Author
+
+Roland Odenore\
+Frontend Developer \| React & React Native Developer
+
+------------------------------------------------------------------------
+
